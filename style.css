@@ -24,6 +24,13 @@ body {
     font-family: 'Kumbh Sans', sans-serif;
 }
 
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 h1,
 h2 {
     font-size: 1.125rem;
@@ -51,7 +58,7 @@ h2 {
 
 .container {
     max-width: 18.75rem;
-    width: 80%;
+    width: 100%;
     background-color: white;
     border-radius: 0.75rem;
     text-align: center;
